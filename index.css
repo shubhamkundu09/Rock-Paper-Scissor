@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.choices{
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10vh;
+}
+.choice{
+    height: 28vh;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.msg-cont{
+    color: white;
+    background-color: black;
+    width: 35vw;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 10px;
+    border-radius: 20%;
+}
